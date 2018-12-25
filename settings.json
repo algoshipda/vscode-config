@@ -27,6 +27,5 @@
         "<C-w>": false,
     },
     "editor.insertSpaces": true,
-    "editor.fontFamily": "'Meslo LG L'",
-    "javascript.validate.enable": false
+    "editor.fontFamily": "'Meslo LG L'"
 }
