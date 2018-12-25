@@ -1,0 +1,32 @@
+// 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
+{
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1,
+    "editor.rulers": [
+        80
+    ],
+    "files.autoSave": "off",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "files.eol": "\n",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-b>": false,
+        "<C-v>": false,
+        "<C-k>": false,
+        "<C-e>": false,
+        "<C-x>": false,
+        "<C-o>": false,
+        "<C-w>": false,
+    },
+    "editor.insertSpaces": true,
+    "editor.fontFamily": "'Meslo LG L'",
+    "javascript.validate.enable": false
+}
