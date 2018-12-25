@@ -336,5 +336,10 @@
   {
     "key": "ctrl+9",
     "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
   }
 ]
