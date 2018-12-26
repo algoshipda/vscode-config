@@ -1,10 +1,10 @@
 // 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
 {
     "editor.tabSize": 2,
-    "editor.fontSize": 14,
-    "window.zoomLevel": 1,
+    "editor.fontSize": 18,
+    "window.zoomLevel": -2,
     "editor.rulers": [
-        80
+        100
     ],
     "files.autoSave": "off",
     "workbench.statusBar.visible": true,
@@ -27,6 +27,8 @@
         "<C-w>": false,
     },
     "editor.insertSpaces": true,
-    "editor.fontFamily": "'Meslo LG L'"
+    "editor.fontFamily": "'Meslo LG L'",
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation": "never",
 }
 
