@@ -341,5 +341,20 @@
     "key": "ctrl+w",
     "command": "-workbench.action.closeWindow",
     "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.insertLineAfter",
+    "when": "editorTextFocus && !editorReadOnly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-editor.action.insertLineAfter",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "acceptSelectedSuggestionOnEnter",
+    "when": "acceptSuggestionOnEnter && suggestWidgetVisible"
   }
 ]
