@@ -1,8 +1,11 @@
 // 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
 {
     "editor.tabSize": 2,
-    "editor.fontSize": 18,
-    "window.zoomLevel": -2,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [],
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "Meslo LG M",
+    "window.zoomLevel": 0,
     "editor.rulers": [
         100
     ],
@@ -26,9 +29,15 @@
         "<C-o>": false,
         "<C-w>": false,
     },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["C-["],
+            "after": ["<Esc>"]
+        }
+    ],
     "editor.insertSpaces": true,
-    "editor.fontFamily": "'Meslo LG L'",
+    "editor.fontFamily": "'Meslo LG M'",
     "emmet.showAbbreviationSuggestions": false,
     "emmet.showExpandedAbbreviation": "never",
+    "editor.fontSize": 18
 }
-
