@@ -356,5 +356,14 @@
     "key": "ctrl+enter",
     "command": "acceptSelectedSuggestionOnEnter",
     "when": "acceptSuggestionOnEnter && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+oem_4",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
